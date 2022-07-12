@@ -1,7 +1,7 @@
 let ferret = {
     name: "Lyra",
     age: 4,
-    color: calico
+    color: "calico",
     favHobbies: [
         {
             activity: "hoarding", 
@@ -10,7 +10,7 @@ let ferret = {
             activity: "climbing",
             things: ["couch", "cage", "table"]
         }
-    ]
+    ],
     getExcited: function() {
         return "Dook! Dook!"
     }
